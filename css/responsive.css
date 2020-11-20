@@ -1,0 +1,1611 @@
+@media (max-width: 575px) {
+
+    /* =======================================
+            nav-part responsive start
+    ========================================== */
+
+    nav button {
+        outline: 0;
+        background: #ffffff !important;
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+        transition: .4s;
+    }
+
+    nav button i {
+        color: #000;
+        padding: 10px 20px;
+    }
+
+    nav button:hover {
+        background: #fec600 !important;
+    }
+
+    nav ul {
+        background: #000;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-top: 12px;
+    }
+
+    nav ul li .droparea {
+        display: none;
+    }
+
+    nav ul li a::after {
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        left: 43%;
+        width: 14% !important;
+        height: 3px;
+        background: #fec600;
+        transition: .4s;
+        opacity: 0;
+    }
+
+    nav ul li a:hover::after {
+        opacity: 1;
+    }
+
+    /* ======================================
+            nav-part responsive end
+   ========================================== */
+
+    /* =======================================
+            about-part responsive start
+    ========================================== */
+
+    #banner-part .banner-slider .banner .overlay .text h2 {
+        font-size: 30px;
+    }
+
+    #banner-part .banner-slider .banner .overlay .text h1 {
+        font-size: 45px;
+    }
+
+    #banner-part .banner-slider .banner .overlay {
+        padding-top: 180px;
+        padding-bottom: 110px;
+    }
+
+    #banner-part .banner-slider .prev {
+        font-size: 25px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        top: 65%;
+        left: 45px;
+    }
+
+    #banner-part .banner-slider .next {
+        font-size: 25px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        top: 65%;
+        right: 45px;
+    }
+
+    #banner-part .banner-slider .banner .overlay .text a {
+        margin-top: 55px;
+    }
+
+    #banner-part .banner-slider .banner .overlay .text p {
+        width: auto;
+    }
+
+    #shape-part {
+        display: none;
+    }
+
+    /* =======================================
+            banner-part responsive end
+    ========================================== */
+
+    .title {
+        margin-top: 45px;
+    }
+
+    .title p {
+        width: auto;
+    }
+
+    /* =======================================
+            about-part responsive start
+    ========================================== */
+    #about-part .about-item {
+        width: 92%;
+    }
+
+    #about-part .item {
+        margin-left: 20px;
+    }
+
+    #about-part .item p {
+        width: auto;
+    }
+
+    #about-part .item1 p {
+        width: auto;
+    }
+
+    #about-part .item2 p {
+        width: auto;
+    }
+
+    #about-part .item3 p {
+        width: auto;
+    }
+
+    #about-part .item1 {
+        margin-left: 30px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #about-part .item2 {
+        margin-left: 30px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #about-part .item3 {
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    #about-part .item-img {
+        display: none;
+    }
+
+    #about-part .item .shape {
+        display: none;
+    }
+
+    #about-part .item .dot1 {
+        display: none;
+    }
+
+    #about-part .item1 .shape {
+        display: none;
+    }
+
+    #about-part .item1 .dot2 {
+        display: none;
+    }
+
+    #about-part .item2 .shape {
+        display: none;
+    }
+
+    #about-part .item2 .dot3 {
+        display: none;
+    }
+
+    #about-part .item3 .shape {
+        display: none;
+    }
+
+    #about-part .item3 .dot4 {
+        display: none;
+    }
+
+    /* ======================================
+            about-part responsive end
+   ========================================== */
+
+    /* =======================================
+            portfolio-part responsive start
+   ========================================== */
+
+    #portfolio-part .title {
+        padding-top: 110px;
+    }
+
+    #portfolio-part .port-banner .overlay {
+        padding-bottom: 100px;
+    }
+
+    #portfolio-part .port-banner .overlay .port-item {
+        margin-bottom: 0;
+    }
+
+    #portfolio-part .port-banner .overlay .port-item .port-img {
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    #portshape-up {
+        display: none;
+    }
+
+    #portshape-down {
+        display: none;
+    }
+
+    /* =======================================
+            portfolio-part responsive end
+   ========================================== */
+
+
+    /* =======================================
+            service-part responsive start
+   ========================================== */
+
+    #service-part {
+        padding-bottom: 27px;
+    }
+
+    #service-part .service-slider .slick-list {
+        height: 354px !important;
+    }
+
+    #service-part .service-slider .item {
+        flex-direction: column;
+        padding-bottom: 90px;
+        height: 340px;
+    }
+
+    #service-part .service-slider .item .left {
+        width: 100%;
+        display: block;
+    }
+
+    #service-part .service-slider .item .left h2 {
+        text-align: center;
+    }
+
+    #service-part .service-slider .item .middle {
+        width: auto;
+        padding: 20px 0;
+    }
+
+    #service-part .service-slider .item .photo-grapics {
+        margin-left: 40px;
+    }
+
+    #service-part .service-slider .item .right {
+        width: 100%;
+    }
+
+    #service-part .service-slider .item .right .box p {
+        width: auto;
+        text-align: center;
+    }
+
+    #service-part .service-slider .item .right .box {
+        padding: 15px 15px;
+        filter: none;
+    }
+
+    #service-part .service-slider .item .right .box .graphic {
+        width: auto;
+        text-align: center;
+    }
+
+    #service-part .service-slider .item:nth-child(2n) {
+        flex-direction: column !important;
+    }
+
+    #service-part .service-slider .middle .round {
+        background: #eeeeee;
+        border-color: #eeeeee;
+        transform: scale(1);
+        margin-left: -20px;
+    }
+
+    #service-part .service-slider .prev {
+        top: -15%;
+    }
+
+    #service-part .service-slider .next {
+        bottom: -20%;
+    }
+
+    #service-part .title p {
+        margin-bottom: 45px;
+    }
+
+    /* =======================================
+            service-part responsive end
+   ========================================== */
+
+    /* =======================================
+            testimonial-part responsive start
+   ========================================== */
+
+    #testishape-up {
+        display: none;
+    }
+
+    #testishape-down {
+        display: none;
+    }
+
+    #testimonial-part .testi-banner .overlay {
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
+
+    #testimonial-part .testi-banner .overlay .main {
+        display: block;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .left {
+        margin-left: 70px;
+        padding: 30px 0;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .left .left-slider .slick-center .testi-img {
+        background: #cccccc;
+        transform: scale(1);
+    }
+
+    #testimonial-part .left-slider .prev {
+        top: 34%;
+        left: -55px;
+        transform: rotate(270deg);
+    }
+
+    #testimonial-part .left-slider .next {
+        bottom: 34%;
+        left: 155px;
+        transform: rotate(270deg);
+    }
+
+    #testimonial-part .testi-banner .overlay .main .right {
+        width: auto;
+        margin-left: 0;
+        display: block;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .right .right-item {
+        width: auto;
+        height: 470px;
+        text-align: center;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .right .right-item .testi-shape {
+        display: none;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .right .right-item .right-slider .text {
+        width: auto;
+        padding: 35px 25px;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .right .right-item .right-slider .text p {
+        width: auto;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .right .right-item .right-slider .text .signature {
+        margin-left: 22%;
+    }
+
+    /* =======================================
+            testimonial-part responsive end
+   ========================================== */
+
+    /* =======================================
+            pricing-part responsive end
+   ========================================== */
+
+    #pricing-part .pricing-plan {
+        margin-bottom: 40px;
+    }
+
+    /* =======================================
+            pricing-part responsive end
+   ========================================== */
+
+    /* =======================================
+            counter-part responsive start
+   ========================================== */
+
+    #counter-part {
+        margin-top: 75px;
+    }
+
+    #counter-part .overlay .item {
+        padding: 25px;
+        margin: 10px 0;
+    }
+
+    #counter-part .overlay .item p {
+        font-size: 17px;
+    }
+
+    /* =======================================
+            counter-part responsive end
+   ========================================== */
+
+    /* =======================================
+            team-part responsive start
+   ========================================== */
+
+    #team-part .team-member {
+        margin-bottom: 40px;
+    }
+
+    /* =======================================
+            team-part responsive end
+   ========================================== */
+
+    /* =======================================
+            company-part responsive start
+   ========================================== */
+
+    #company-part {
+        margin-top: 65px;
+    }
+
+    /* =======================================
+            company-part responsive end
+   ========================================== */
+
+    /* =======================================
+            footer-part responsive start
+   ========================================== */
+
+    #footer-part {
+        clip-path: none;
+    }
+
+    #footer-part .footer-icon a {
+        margin-left: 12px;
+    }
+
+    /* =======================================
+            footer-part responsive end
+   ========================================== */
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* =======================================
+            nav-part responsive start
+    ========================================== */
+
+    nav button {
+        outline: 0;
+        background: #ffffff !important;
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+        transition: .4s;
+    }
+
+    nav button i {
+        color: #000;
+        padding: 10px 20px;
+    }
+
+    nav button:hover {
+        background: #fec600 !important;
+    }
+
+    nav ul {
+        background: #000;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-top: 12px;
+    }
+
+    nav ul li .droparea {
+        display: none;
+    }
+
+    nav ul li a::after {
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        left: 43%;
+        width: 14% !important;
+        height: 3px;
+        background: #fec600;
+        transition: .4s;
+        opacity: 0;
+    }
+
+    nav ul li a:hover::after {
+        opacity: 1;
+    }
+
+    /* ======================================
+            nav-part responsive end
+   ========================================== */
+
+    /* =======================================
+            about-part responsive start
+    ========================================== */
+
+    #banner-part .banner-slider .banner .overlay .text h2 {
+        font-size: 30px;
+    }
+
+    #banner-part .banner-slider .banner .overlay .text h1 {
+        font-size: 45px;
+    }
+
+    #banner-part .banner-slider .banner .overlay {
+        padding-top: 180px;
+        padding-bottom: 110px;
+    }
+
+    #banner-part .banner-slider .prev {
+        font-size: 25px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        top: 65%;
+        left: 120px;
+    }
+
+    #banner-part .banner-slider .next {
+        font-size: 25px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        top: 65%;
+        right: 120px;
+    }
+
+    #banner-part .banner-slider .banner .overlay .text a {
+        margin-top: 55px;
+    }
+
+    #banner-part .banner-slider .banner .overlay .text p {
+        width: auto;
+    }
+
+    #shape-part {
+        display: none;
+    }
+
+    /* =======================================
+            banner-part responsive end
+    ========================================== */
+
+    .title {
+        margin-top: 45px;
+    }
+
+    .title p {
+        width: auto;
+    }
+
+    /* =======================================
+            about-part responsive start
+    ========================================== */
+    #about-part .about-item {
+        width: 92%;
+    }
+
+    #about-part .item {
+        margin-left: 20px;
+    }
+
+    #about-part .item p {
+        width: auto;
+    }
+
+    #about-part .item1 p {
+        width: auto;
+    }
+
+    #about-part .item2 p {
+        width: auto;
+    }
+
+    #about-part .item3 p {
+        width: auto;
+    }
+
+    #about-part .item1 {
+        margin-left: 30px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #about-part .item2 {
+        margin-left: 30px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #about-part .item3 {
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    #about-part .item-img {
+        display: none;
+    }
+
+    #about-part .item .shape {
+        display: none;
+    }
+
+    #about-part .item .dot1 {
+        display: none;
+    }
+
+    #about-part .item1 .shape {
+        display: none;
+    }
+
+    #about-part .item1 .dot2 {
+        display: none;
+    }
+
+    #about-part .item2 .shape {
+        display: none;
+    }
+
+    #about-part .item2 .dot3 {
+        display: none;
+    }
+
+    #about-part .item3 .shape {
+        display: none;
+    }
+
+    #about-part .item3 .dot4 {
+        display: none;
+    }
+
+    /* ======================================
+            about-part responsive end
+   ========================================== */
+
+    /* =======================================
+            portfolio-part responsive start
+   ========================================== */
+
+    #portfolio-part .title {
+        padding-top: 110px;
+    }
+
+    #portfolio-part .port-banner .overlay {
+        padding-bottom: 100px;
+    }
+
+    #portfolio-part .port-banner .overlay .port-item {
+        margin-bottom: 0;
+    }
+
+    #portfolio-part .port-banner .overlay .port-item .port-img {
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    #portshape-up {
+        display: none;
+    }
+
+    #portshape-down {
+        display: none;
+    }
+
+    /* =======================================
+            portfolio-part responsive end
+   ========================================== */
+
+
+    /* =======================================
+            service-part responsive start
+   ========================================== */
+
+    #service-part {
+        padding-bottom: 27px;
+    }
+
+    #service-part .service-slider .slick-list {
+        height: 354px !important;
+    }
+
+    #service-part .service-slider .item {
+        flex-direction: column;
+        padding-bottom: 90px;
+        height: 340px;
+    }
+
+    #service-part .service-slider .item .left {
+        width: 100%;
+        display: block;
+    }
+
+    #service-part .service-slider .item .left h2 {
+        text-align: center;
+    }
+
+    #service-part .service-slider .item .middle {
+        width: auto;
+        padding: 40px 0;
+    }
+
+    #service-part .service-slider .item .photo-grapics {
+        margin-left: 40px;
+    }
+
+    #service-part .service-slider .item .right {
+        width: 100%;
+    }
+
+    #service-part .service-slider .item .right .box p {
+        width: auto;
+        text-align: center;
+    }
+
+    #service-part .service-slider .item .right .box {
+        padding: 30px 30px;
+        filter: none;
+    }
+
+    #service-part .service-slider .item .right .box .graphic {
+        width: auto;
+        text-align: center;
+    }
+
+    #service-part .service-slider .item:nth-child(2n) {
+        flex-direction: column !important;
+    }
+
+    #service-part .service-slider .middle .round {
+        background: #eeeeee;
+        border-color: #eeeeee;
+        transform: scale(1);
+        margin-left: -20px;
+    }
+
+    #service-part .service-slider .prev {
+        top: -15%;
+    }
+
+    #service-part .service-slider .next {
+        bottom: -20%;
+    }
+
+    #service-part .title p {
+        margin-bottom: 45px;
+    }
+
+    /* =======================================
+            service-part responsive end
+   ========================================== */
+
+    /* =======================================
+            testimonial-part responsive start
+   ========================================== */
+
+    #testishape-up {
+        display: none;
+    }
+
+    #testishape-down {
+        display: none;
+    }
+
+    #testimonial-part .testi-banner .overlay {
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
+
+    #testimonial-part .testi-banner .overlay .main {
+        display: block;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .left {
+        margin-left: 140px;
+        padding: 30px 0;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .left .left-slider .img {
+        display: flex;
+        justify-content: center;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .left .left-slider .slick-center .testi-img {
+        background: #cccccc;
+        transform: scale(1);
+    }
+
+    #testimonial-part .left-slider .prev {
+        top: 34%;
+        left: -45px;
+        transform: rotate(270deg);
+    }
+
+    #testimonial-part .left-slider .next {
+        bottom: 34%;
+        left: 215px;
+        transform: rotate(270deg);
+    }
+
+    #testimonial-part .testi-banner .overlay .main .right {
+        width: auto;
+        margin-left: 0;
+        display: block;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .right .right-item {
+        width: auto;
+        height: 470px;
+        text-align: center;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .right .right-item .testi-shape {
+        display: none;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .right .right-item .right-slider .text {
+        width: auto;
+        padding: 35px 25px;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .right .right-item .right-slider .text p {
+        width: auto;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .right .right-item .right-slider .text .signature {
+        margin-left: 22%;
+    }
+
+    /* =======================================
+            testimonial-part responsive end
+   ========================================== */
+
+    /* =======================================
+            pricing-part responsive end
+   ========================================== */
+
+    #pricing-part .pricing-plan {
+        margin-bottom: 40px;
+    }
+
+    #pricing-part .pricing-plan .price-round {
+        left: 40%;
+    }
+
+    /* =======================================
+            pricing-part responsive end
+   ========================================== */
+
+    /* =======================================
+            counter-part responsive start
+   ========================================== */
+
+    #counter-part {
+        margin-top: 75px;
+    }
+
+    #counter-part .overlay .item {
+        padding: 25px;
+        margin: 10px 0;
+    }
+
+    #counter-part .overlay .item p {
+        font-size: 14px;
+    }
+
+    /* =======================================
+            counter-part responsive end
+   ========================================== */
+
+    /* =======================================
+            team-part responsive start
+   ========================================== */
+
+    #team-part .team-member {
+        margin-bottom: 40px;
+    }
+
+    /* =======================================
+            team-part responsive end
+   ========================================== */
+
+    /* =======================================
+            company-part responsive start
+   ========================================== */
+
+    #company-part {
+        margin-top: 65px;
+    }
+
+    /* =======================================
+            company-part responsive end
+   ========================================== */
+
+    /* =======================================
+            footer-part responsive start
+   ========================================== */
+
+    #footer-part {
+        clip-path: none;
+        margin-top: -75px;
+    }
+
+    #footer-part .footer-icon a {
+        margin-left: 12px;
+    }
+
+    #footer-part .phone::after {
+        display: none;
+    }
+
+    #footer-part .mail::after {
+        display: none;
+    }
+
+    #footer-part .globe::after {
+        display: none;
+    }
+
+    /* =======================================
+            footer-part responsive end
+   ========================================== */
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* =======================================
+            nav-part responsive start
+    ========================================== */
+
+    nav button {
+        outline: 0;
+        background: #ffffff !important;
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+        transition: .4s;
+    }
+
+    nav button i {
+        color: #000;
+        padding: 10px 20px;
+    }
+
+    nav button:hover {
+        background: #fec600 !important;
+    }
+
+    nav ul {
+        background: #000;
+        text-align: center;
+        padding: 9s0px 0;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-top: 12px;
+    }
+
+    nav ul li .droparea {
+        display: none;
+    }
+
+    nav ul li a::after {
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        left: 43%;
+        width: 14% !important;
+        height: 3px;
+        background: #fec600;
+        transition: .4s;
+        opacity: 0;
+    }
+
+    nav ul li a:hover::after {
+        opacity: 1;
+    }
+
+    /* ======================================
+            nav-part responsive end
+   ========================================== */
+
+    /* =======================================
+            about-part responsive start
+    ========================================== */
+
+    #banner-part .banner-slider .banner .overlay .text h2 {
+        font-size: 30px;
+    }
+
+    #banner-part .banner-slider .banner .overlay .text h1 {
+        font-size: 45px;
+    }
+
+    #banner-part .banner-slider .banner .overlay {
+        padding-top: 180px;
+        padding-bottom: 110px;
+    }
+
+    #banner-part .banner-slider .prev {
+        font-size: 25px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        top: 65%;
+        left: 120px;
+    }
+
+    #banner-part .banner-slider .next {
+        font-size: 25px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        top: 65%;
+        right: 120px;
+    }
+
+    #banner-part .banner-slider .banner .overlay .text a {
+        margin-top: 55px;
+    }
+
+    #shape-part {
+        display: none;
+    }
+
+    /* =======================================
+            banner-part responsive end
+    ========================================== */
+
+    .title {
+        margin-top: 45px;
+    }
+
+    .title p {
+        width: auto;
+    }
+
+    /* =======================================
+            about-part responsive start
+    ========================================== */
+    #about-part .about-item {
+        width: 92%;
+    }
+
+    #about-part .item {
+        margin-left: 55px;
+    }
+
+    #about-part .item p {
+        width: auto;
+    }
+
+    #about-part .item1 p {
+        width: auto;
+    }
+
+    #about-part .item2 p {
+        width: auto;
+    }
+
+    #about-part .item3 p {
+        width: auto;
+    }
+
+    #about-part .item1 {
+        margin-left: 55px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #about-part .item2 {
+        margin-left: 55px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #about-part .item3 {
+        margin-left: 55px;
+        margin-top: 30px;
+    }
+
+    #about-part .item-img {
+        margin: 0 215px;
+        margin-top: 40px;
+        margin-bottom: 1px;
+    }
+
+    #about-part .item .shape {
+        display: none;
+    }
+
+    #about-part .item .dot1 {
+        display: none;
+    }
+
+    #about-part .item1 .shape {
+        display: none;
+    }
+
+    #about-part .item1 .dot2 {
+        display: none;
+    }
+
+    #about-part .item2 .shape {
+        display: none;
+    }
+
+    #about-part .item2 .dot3 {
+        display: none;
+    }
+
+    #about-part .item3 .shape {
+        display: none;
+    }
+
+    #about-part .item3 .dot4 {
+        display: none;
+    }
+
+    /* ======================================
+            about-part responsive end
+   ========================================== */
+
+    /* =======================================
+            portfolio-part responsive start
+   ========================================== */
+
+    #portfolio-part .title {
+        padding-top: 110px;
+    }
+
+    #portfolio-part .port-banner .overlay {
+        padding-bottom: 100px;
+    }
+
+    #portfolio-part .port-banner .overlay .port-item {
+        margin-bottom: 0;
+    }
+
+    #portfolio-part .port-banner .overlay .port-item .port-img {
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    #portfolio-part .port-banner .overlay .port-item .port-img .overlay a{
+        margin-top: 80px;
+    }
+
+    #portshape-up {
+        display: none;
+    }
+
+    #portshape-down {
+        display: none;
+    }
+
+    /* =======================================
+            portfolio-part responsive end
+   ========================================== */
+
+
+    /* =======================================
+            service-part responsive start
+   ========================================== */
+
+    #service-part {
+        padding-bottom: 27px;
+    }
+
+    #service-part .service-slider .slick-list {
+        height: 354px !important;
+    }
+
+    #service-part .service-slider .item {
+        flex-direction: column;
+        padding-bottom: 90px;
+        height: 340px;
+    }
+
+    #service-part .service-slider .item .left {
+        width: 100%;
+        display: block;
+        margin-top: 24px;
+    }
+
+    #service-part .service-slider .item .left h2 {
+        text-align: center;
+    }
+
+    #service-part .service-slider .item .middle {
+        width: auto;
+        padding: 40px 0;
+    }
+
+    #service-part .service-slider .item .photo-grapics {
+        margin-left: 40px;
+    }
+
+    #service-part .service-slider .item .right {
+        width: 100%;
+    }
+
+    #service-part .service-slider .item .right .box p {
+        width: auto;
+        text-align: center;
+    }
+
+    #service-part .service-slider .item .right .box {
+        padding: 30px 30px;
+        filter: none;
+    }
+
+    #service-part .service-slider .item .right .box .graphic {
+        width: auto;
+        text-align: center;
+    }
+
+    #service-part .service-slider .item:nth-child(2n) {
+        flex-direction: column !important;
+    }
+
+    #service-part .service-slider .middle .round {
+        background: #eeeeee;
+        border-color: #eeeeee;
+        transform: scale(1);
+        margin-left: -20px;
+    }
+
+    #service-part .service-slider .prev {
+        top: -15%;
+    }
+
+    #service-part .service-slider .next {
+        bottom: -20%;
+    }
+
+    #service-part .title p {
+        margin-bottom: 45px;
+    }
+
+    /* =======================================
+            service-part responsive end
+   ========================================== */
+
+    /* =======================================
+            testimonial-part responsive start
+   ========================================== */
+
+    #testishape-up {
+        display: none;
+    }
+
+    #testishape-down {
+        display: none;
+    }
+
+    #testimonial-part .testi-banner .overlay {
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
+
+    #testimonial-part .testi-banner .overlay .main {
+        display: block;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .left {
+        width: 237px;
+        margin-left: 220px;
+        padding: 30px 0;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .left .left-slider .img {
+        width: ;
+        display: flex;
+        justify-content: center;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .left .left-slider .testi-img{
+        width: 70px;
+        height: 70px;
+        margin-left: 20px;
+        background: #cccccc;
+        transform: scale(1);
+    }
+
+    #testimonial-part .testi-banner .overlay .main .left .left-slider .testi-img img{
+        width: 100%;
+        left: 0;
+    }
+
+    #testimonial-part .left-slider .prev {
+        top: 34%;
+        left: -80px;
+        transform: rotate(270deg);
+    }
+
+    #testimonial-part .left-slider .next {
+        bottom: 30%;
+        left: 270px;
+        transform: rotate(270deg);
+    }
+
+    #testimonial-part .testi-banner .overlay .main .right {
+        width: auto;
+        margin-left: 0;
+        display: block;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .right .right-item {
+        width: auto;
+        height: 360px;
+        text-align: center;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .right .right-item .testi-shape {
+        display: none;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .right .right-item .right-slider .text {
+        width: auto;
+        padding: 35px 25px;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .right .right-item .right-slider .text p {
+        width: auto;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .right .right-item .right-slider .text .signature {
+        margin-left: 40%;
+    }
+
+    /* =======================================
+            testimonial-part responsive end
+   ========================================== */
+
+    /* =======================================
+            pricing-part responsive end
+   ========================================== */
+
+    #pricing-part .pricing-plan {
+        margin-bottom: 40px;
+    }
+
+    #pricing-part .pricing-plan .price-round {
+        width: 80px;
+        height: 80px;
+        left: 30%;
+    }
+
+    #pricing-part .pricing-plan .price-round .month-round{
+        width: 70px;
+        height: 70px;
+    }
+
+    #pricing-part .pricing-plan .price-round .month-round .price{
+        font-size: 18px;
+    }
+
+    #pricing-part .pricing-plan .price-item ul li{
+        margin-top: 15px;
+    }
+
+    /* =======================================
+            pricing-part responsive end
+   ========================================== */
+
+    /* =======================================
+            counter-part responsive start
+   ========================================== */
+
+    #counter-part .overlay .item p {
+        font-size: 20px;
+    }
+
+    /* =======================================
+            counter-part responsive end
+   ========================================== */
+
+    /* =======================================
+            team-part responsive start
+   ========================================== */
+
+    #team-part .team-member {
+        margin-bottom: 30px;
+    }
+
+    #team-part .team-member .member-img .team-img3{
+        left: 10px;
+    }
+
+    /* =======================================
+            team-part responsive end
+   ========================================== */
+
+    /* =======================================
+            company-part responsive start
+   ========================================== */
+
+    #company-part {
+        margin-top: 65px;
+    }
+
+    /* =======================================
+            company-part responsive end
+   ========================================== */
+
+    /* =======================================
+            footer-part responsive start
+   ========================================== */
+
+    #footer-part {
+        clip-path: none;
+        margin-top: -80px;
+        position: inherit;
+    }
+
+    /* #footer-part .footer-icon a {
+        margin-left: 12px;
+    } */
+
+    #footer-part .phone::after {
+        display: none;
+    }
+
+    #footer-part .mail::after {
+        display: none;
+    }
+
+    #footer-part .globe::after {
+        display: none;
+    }
+
+    /* =======================================
+            footer-part responsive end
+   ========================================== */
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* ==========================================
+                about-part responsive start
+    ============================================= */
+
+    #about-part .item p{
+        width: auto;
+    }
+
+    #about-part .item1 p{
+        width: auto;
+    }
+
+    #about-part .item2 p{
+        width: auto;
+    }
+
+    #about-part .item3 p{
+        width: auto;
+    }
+
+    #about-part .item{
+        padding: 25px 25px;
+    }
+
+    #about-part .item1{
+        padding: 25px 20px;
+        margin-top: 62px;
+    }
+
+    #about-part .item2{
+        padding: 25px 20px;
+        margin-top: 62px;
+    }
+
+    #about-part .item3{
+        padding: 25px 25px;
+    }
+
+    #about-part .item-img{
+        width: 245px;
+        height: 245px;
+        margin: 45px 45px;
+    }
+
+    #about-part .item-img img{
+        width: 215px;
+        height: 215px;
+    }
+
+    #about-part .item .dot1{
+        bottom: -30%;
+        left: 52%;
+        transform: translate(-52%, -30%);
+    }
+
+    #about-part .item1 .dot2{
+        right: -18%;
+        transform: translate(-18%, 42%);
+    }
+
+    #about-part .item1 .dot3{
+        left: -18%;
+        transform: translate(-18%, 42%);
+    }
+
+    #about-part .item2 .dot3{
+        left: -12%;
+        transform: translate(-12%, 42%);
+    }
+
+    #about-part .item2 .shape{
+        width: 20px;
+        height: 30px;
+    }
+
+    #about-part .item3 .dot4{
+        top: -26%;
+        left: 51%;
+        transform: translate(-51%, -26%);
+    }
+
+    /* ==========================================
+                about-part responsive end
+    ============================================= */
+
+    /* ==========================================
+                servce-part responsive start
+    ============================================= */
+
+    #service-part .service-slider .item .right .box{
+        padding: 35px 30px;
+    }
+
+    #service-part .service-slider .item .right .box p{
+        width: auto;
+    }
+
+    #service-part .service-slider .item .right .box .graphic{
+        width: auto;
+    }
+
+    /* ==========================================
+                service-part responsive end
+    ============================================= */
+
+    /* ================================================
+                testimonial-part responsive start
+    ==================================================== */
+
+    #testimonial-part .testi-banner .overlay .main .left .left-slider .slick-list{
+        height: 440px;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .left .left-slider .testi-img{
+        margin-top: 27px;
+        margin-left: 60px;
+    }
+
+    #testimonial-part .testi-banner .overlay .main .left .left-slider .slick-center .testi-img{
+        transform: scale(1);
+    }
+
+    #testimonial-part .left-slider .prev{
+        top: -15%;
+        left: 55%;
+    }
+
+    #testimonial-part .left-slider .next{
+        bottom: -15%;
+        left: 58%;
+    }
+
+    /* ===============================================
+                testimonial-part responsive end
+    ================================================== */
+
+}
